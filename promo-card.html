@@ -1,0 +1,106 @@
+<!doctype html>
+<!-- Throwaway asset: a 640x360 BotFather "description picture".
+     Open in a browser, capture the card as a 640x360 PNG, upload it in
+     BotFather (Edit Bot -> Edit Description Picture), then delete this file.
+     The .card element is exactly 640x360 — screenshot just that element,
+     or set the browser viewport to 640x360. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PolySignal — description picture 640×360</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    html, body {
+      margin: 0; padding: 0;
+      background: #050507;
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100vh;
+      font-family: "Geist", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    }
+    .card {
+      width: 640px; height: 360px;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(620px 320px at 80% -10%, rgba(168,85,247,0.20), transparent 70%),
+        radial-gradient(560px 300px at 8% 115%, rgba(59,130,246,0.18), transparent 70%),
+        #0B0B0F;
+      padding: 32px 36px;
+      color: #ECECEC;
+      letter-spacing: -0.01em;
+    }
+    .brand {
+      display: flex; align-items: center; gap: 9px;
+      font-weight: 700; font-size: 19px;
+    }
+    .brand .mark {
+      width: 26px; height: 26px;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 7px;
+      background: linear-gradient(135deg, #A855F7 0%, #3B82F6 100%);
+    }
+    .tagline {
+      margin-top: 6px;
+      font-size: 13px; color: #8E8E96; font-weight: 500;
+    }
+    .bubble {
+      position: absolute;
+      left: 36px; right: 36px; bottom: 78px;
+      background: #1B1C25;
+      border: 1px solid #262732;
+      border-radius: 16px;
+      border-bottom-left-radius: 5px;
+      padding: 16px 18px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.45);
+    }
+    .row1 { font-size: 16px; font-weight: 600; }
+    .row1 .green { color: #34D399; }
+    .row1 b { color: #FFFFFF; }
+    .market {
+      font-size: 14px; color: #C8C8CE; font-style: italic;
+      margin-top: 3px;
+    }
+    .meta {
+      margin-top: 9px; font-size: 14px; color: #C8C8CE;
+      line-height: 1.7;
+    }
+    .meta b { color: #FFFFFF; font-weight: 600; }
+    .footline {
+      position: absolute;
+      left: 36px; bottom: 30px;
+      font-size: 12.5px; color: #5C5C66; font-weight: 500;
+    }
+    .footline .dot { color: #A855F7; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="brand">
+      <span class="mark">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M13.5 2L4 13.5h6L9.5 22 20 10h-6L13.5 2z" fill="#0B0B0F"/>
+        </svg>
+      </span>
+      <span>PolySignal</span>
+    </div>
+    <div class="tagline">Top Polymarket wallets — the moment they trade.</div>
+
+    <div class="bubble">
+      <div class="row1">🟢 <b>surfandturf</b> bought <b>Yes</b></div>
+      <div class="market">Fed cuts rates at the March meeting?</div>
+      <div class="meta">
+        💵 <b>$12K</b> @ 38¢<br/>
+        ⏳ Resolves in 9d<br/>
+        📊 71% win · <b>$2.4M</b> realized (last 100 markets)
+      </div>
+    </div>
+
+    <div class="footline">
+      <span class="dot">●</span> Real-time alerts in Telegram · read-only
+    </div>
+  </div>
+</body>
+</html>
